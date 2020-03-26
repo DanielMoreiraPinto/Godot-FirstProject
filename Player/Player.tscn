@@ -214,7 +214,7 @@ script = ExtResource( 2 )
 position = Vector2( 0, -8 )
 texture = ExtResource( 1 )
 hframes = 60
-frame = 12
+frame = 18
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 rotation = -1.5708
@@ -235,5 +235,5 @@ tree_root = SubResource( 10 )
 anim_player = NodePath("../AnimationPlayer")
 active = true
 parameters/playback = SubResource( 11 )
-parameters/Idle/blend_position = Vector2( 0, 0 )
+parameters/Idle/blend_position = Vector2( 0, 0.1 )
 parameters/Run/blend_position = Vector2( 0, 0 )
